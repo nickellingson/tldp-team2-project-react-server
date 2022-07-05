@@ -1,7 +1,7 @@
 node {
     
     stage('Checkout') {
-       git branch: 'main', url: '/https://github.com/nickellingson/tldp-team2-project-react-server.git'
+       git branch: 'main', url: 'https://github.com/nickellingson/tldp-team2-project-react-server.git'
     }
     
     stage('Install Dependencies') {
