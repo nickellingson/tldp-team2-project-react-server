@@ -1,6 +1,6 @@
 import express from 'express'
 var eventRouter = express.Router()
-import eventController from '../controllers/event-controller'
+import eventController from '../controllers/event-controller.js'
 
 // GET /api/events
 eventRouter.get('/', function(req, res) {
